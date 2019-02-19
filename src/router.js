@@ -1,10 +1,10 @@
 import React from 'react';
-import {Router, Route, Switch, routerRedux} from 'dva/router';
+import {Router, Route, Switch,} from 'dva/router';
 
 
 import IndexPage from './routes/IndexPage';
 
-const Routers = ({history}) => {
+const RouterConfig = ({history}) => {
   return (
       <Router history={history}>
         <Switch>
@@ -14,4 +14,4 @@ const Routers = ({history}) => {
   );
 }
 
-export default Routers;
+export default RouterConfig;
